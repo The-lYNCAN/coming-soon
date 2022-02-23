@@ -15,12 +15,21 @@
             opacity: 1;
             animation: fadein 3s forwards;
         }
+        h1{
+            font-family: "Night Zone";
+            src: url("Nightzone.ttf");
+            src: url("CustomFont.woff") format("woff"),
+            url("Night Zone.otf") format("png");
+        }
         h2 {
             font-weight: 300;
             margin-bottom: 25px;
         }
         img {
-            width: 25%; /* Image width */
+            /*width: auto;*/ /* Image width */
+            width: auto;
+            margin: 0;
+            height: auto;
             border: 0; /* For IE */
             /* Aspect ratio of image, gives initial dimension to prevent text moving down once image is loaded */
             /* When changing logo, change this also */
@@ -41,7 +50,7 @@
         }
         #fill {
             padding: 2px 0;
-            background-color: #00b98b; /* Fill colour */
+            background-color: #000000; /* Fill colour */
             width: 35%; /* Bar percentage, change text below also */
             border-radius: 25px; /* Roundness */
             animation: proanimate 2s;
@@ -82,8 +91,8 @@
 </head>
 <body>
     <div id="main">
-        <img src="logo.png" alt="Logo Image">
-        <h1>Company Name</h1>
+        <img src="logooo.png" alt="Logo Image">
+        <!-- <h1>Cypherash Enterprises</h1> -->
         <h2>Our website is currently under construction. </h2>
         <div id="progress"><div id="fill"><div id="barpercent"><h3>35%</h3></div></div></div>
     </div>
